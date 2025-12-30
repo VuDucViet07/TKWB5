@@ -1,0 +1,62 @@
+    <!DOCTYPE html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ví dụ HTML</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+
+        
+        <div class="container">
+            <h1>Danh sách việc cần làm</h1>
+            <ul>
+                <li>Ôn HTML</li>
+                <li>Ôn CSS</li>
+                <li>Làm bài tập</li>
+            </ul>
+        </div>
+
+    
+        <div class="container">
+            <h1>Đăng ký học</h1>
+                <label for="fullname">Họ tên</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="Nhập họ tên"><br>
+                
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Nhập email"><br>
+                
+                <button type="submit">Gửi</button>
+            </form>
+        </div>
+
+        
+        <div class="container">
+            <h1>Bảng điểm</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tên</th>
+                        <th>Điểm</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>An</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>Bình</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Chi</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+    </html>
